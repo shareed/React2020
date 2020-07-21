@@ -1,0 +1,14 @@
+span {
+    color: hotpink;
+    margin: 5px;
+  }
+  li {
+    list-style: none;
+    margin: 10px;
+  }
+  li:nth-of-type(even) {
+   color: palevioletred;
+  }
+  li:nth-last-of-type(odd){
+    color: #263650;
+  }
