@@ -1,24 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
-body {
-  height: 100vh;
-  margin: 1rem;
-  font-family: "Open Sans Condensed",
-    sans-serif;
-  background: #e8e3ec;
-}
+
 .posts-container-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-img {
+.props img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   justify-self: center;
   border: 3px solid rgb(167, 188, 164);
 }
-.box {
+.props .box {
   width: 250px;
   margin: 1rem;
   background-color: #efebd8;
@@ -34,19 +28,19 @@ img {
   align-items: center;
   padding: 1.25rem;
 }
-h1,
+.props  h1,
 h2 {
   font-size: 30px;
   margin: 0 0 1rem 0;
   border-bottom: 3px solid #6b8869;
 }
-p {
+.props  p {
   align-self: start;
 }
-.point-container {
+.props  .point-container {
   display: flex;
 }
-button {
+.props-button {
   font-size: 30px;
   background: transparent;
   border: none;

@@ -3,7 +3,7 @@ import MainTitle from "./MainTitle";
 import SubTitle from "./SubTitle";
 import DataProps from "./DataProps";
 import { characters } from "./data";
-import "./props.css";
+// import "./props.css";
 
 function Props() {
   const [character] = useState(characters);

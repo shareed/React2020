@@ -1,4 +1,25 @@
-html,
+.App {
+  background: black;
+  margin: 0 auto;
+  width: 80%;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 36px;
+  color: black;
+} 
+
+.concept {
+  background-color: rgb(189, 163, 163);
+  margin-bottom: 30px;
+  min-height: 200px;
+} 
+
+h1 {
+  font-size: 30px;
+}
+
+
+/* html,
 body {
   height: 100%;
   width: 100%;
@@ -8,13 +29,9 @@ body {
   color: white;
 }
 
-.App {
-  font-family: sans-serif;
-  text-align: center;
-  padding: 36px;
-}
+*/
 
-i {
+/* i {
   font-size: 12px;
 }
 
@@ -88,4 +105,4 @@ h4 {
 .concept {
   background-color: green;
   margin-bottom: 30px;
-}
+} */

@@ -6,6 +6,10 @@ import Title2 from './components/Title2';
 import Counter from './components/Counter';
 import Props from './components/props/Props';
 import Props2 from './components/props2/Props2';
+import UseEffect from './components/SideAffects/UseEffect';
+
+
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +27,9 @@ function App() {
       </div>
       <div className = 'concept'>
         <Props2 />
+      </div>
+      <div className = 'concept'>
+        <UseEffect />
       </div>
 
     </div>

@@ -6,7 +6,7 @@ const ProfilePage = () => {
   const [data] = useState(dummydata);
   console.log(data);
   return (
-    <div className="posts-container-wrapper">
+    <div className="props posts-container-wrapper">
       {data.map(p => (
         <ProfileCard propsPassedFromParent={p} />
       ))}

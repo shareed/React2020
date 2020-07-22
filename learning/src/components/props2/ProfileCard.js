@@ -11,7 +11,7 @@ const ProfileCard = ({ propsPassedFromParent }) => {
     setPoints(points => points + 1);
   };
   return (
-    <div className="box">
+    <div className=" props box">
       <ProfileImage image={propsPassedFromParent.profileImg} />
       <Title name={propsPassedFromParent.name} />
       <PridePoints incrementPoints={incrementPoints} points={points} />
