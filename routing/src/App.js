@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
-
+import Dynamic from './components/dynamic'
 
 function Home(props) {
   debugger
@@ -34,7 +34,7 @@ function App() {
         <Route path = '/about' component = {About} />
         <Route path = '/ideas' component = {Ideas} />
         
-
+        <Dynamic />
         {/* <Switch>
         <Route path = '/' component = {Home} />
         <Route path = '/contact' component = {Contact} />
