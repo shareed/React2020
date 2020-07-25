@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-
+import { newReducer } from './reducers'
 
 function reducer() {
   return {
@@ -28,7 +28,8 @@ function reducer() {
   };
 }
 
-const store = createStore(reducer)
+// const store = createStore(reducer)
+const store = createStore(newReducer)
 
 
 ReactDOM.render(

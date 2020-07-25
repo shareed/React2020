@@ -109,3 +109,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
     * make a case for each action
     * update and return the state tree (use immutable principles)
     * return state for the default
+* [Redux Reducer Video](https://www.youtube.com/watch?time_continue=589&v=nF2HkjPz01A&feature=emb_logo)

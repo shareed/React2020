@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { addMovie } from './actions';
+import { addMovieAction } from './actions';
 import Movie from './movie.js';
+
 
 class MovieList extends React.Component {
 
@@ -11,7 +12,7 @@ class MovieList extends React.Component {
 
     addMovie = e => {
         e.preventDefault();
-        this.props.addMovie(this.state.newMovie);
+        this.props.addMovieAction(this.state.newMovie);
     };
 
 
@@ -40,4 +41,4 @@ class MovieList extends React.Component {
           user: state.user
       }
   }
-export default connect(mapStateToProps, { addMovie }) (MovieList);
+export default connect(mapStateToProps, { addMovieAction }) (MovieList);
