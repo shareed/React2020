@@ -19,7 +19,7 @@ class ReedList extends React.Component {
           {this.props.members.map((member, index) => (
             <h4 key={index}>
               {member.name}
-              {member.dragonStatus && <i className="fas fa-dragon" />}
+              {member.reedStatus && <i className="fas fa-dragon" />}
             </h4>
           ))}
         </div>
