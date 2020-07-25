@@ -24,7 +24,7 @@ export default function SignIn(props) {
              .then(res => {
                  console.log(res)
                  localStorage.setItem("token", res.data.payload);
-                 props.history.push('/userhome')
+                 props.history.push('/assignersHome')
             })
              .catch(err => console.log(err))
                 setUser({ email: '', password: '' })

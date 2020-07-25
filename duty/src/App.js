@@ -9,6 +9,7 @@ import Footer from './components/footer'
 import WhichSignUp from './components/whichSignUp';
 import SignUp from './components/signup';
 import SignIn from './components/signin';
+import AssignersHome from './components/assignersHome';
 import './App.css';
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Route path = '/whichsignup' component = {WhichSignUp} />
       <Route path = '/signup' component = {SignUp} />
       <Route path = '/signin' component = {SignIn} />
+      <Route path = '/assignersHome' component = {AssignersHome} />
       <Footer />
     </div>
   );
