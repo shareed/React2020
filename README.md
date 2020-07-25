@@ -1,10 +1,12 @@
 # React2020
 # REACT
 * Library that allow uss to do stuff with the UI
-* Title.js, Counter.js `useState`
-* Title2.js `reducer`
-* Props.js, Props2.js `passing props`
-* UseEffect.js, UseEffect2.js ` useEffect`
+* Learning
+    * reducer
+    * Title.js, Counter.js `useState`
+    * Title2.js `reducer`
+    * Props.js, Props2.js `passing props`
+    * UseEffect.js, UseEffect2.js ` useEffect`
 
 # Reducer
 * A reducer is a pure function that takes the previous state and an action, and returns the next state. It "reduces" those two arguments to one output:
@@ -20,3 +22,5 @@
 * render function
 * `setState`
 * event handlers
+
+# [React LifeCycle]
