@@ -13,6 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 # [Redux](./src/img/big3.jpg)
 * **gives us a way to able to have our state outside any indiviual component**
 * **gives us a way for the child component to be able to update the state of the parent component**
+* redux is like the rug, and the app is on top of the rug, the rug is the store
 
 * Managing application state and keeping it in sync across all layers of our application is very important
 * Redux is a predictable state management library for JavaScript applications and is the most popular State container for React applications. 

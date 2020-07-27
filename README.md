@@ -17,11 +17,15 @@
 * [Props2](https://www.youtube.com/watch?v=tsj13GW3SvA&feature=youtu.be)
 * [useEffect](https://www.youtube.com/watch?v=_2kwlBl9HLo&feature=youtu.be)
 
-# [Class Components]
+# [Class Components]()
 * state and props
 * constructor
 * render function
 * `setState`
 * event handlers
 
-# [React LifeCycle]
+# [React LifeCycle]()
+
+***Render props pattern takes a function that does some logic before it renders***
+
+**Hooks are functions that allow you to reuse stateful logic without changing your component hierarchy, reusing state in a simple way**
