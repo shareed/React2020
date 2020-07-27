@@ -1,5 +1,6 @@
 # React2020
 # REACT
+* [Some Notes come from here](https://github.com/josh-jacobson/lambda-lecture-notes)
 * Library that allow uss to do stuff with the UI
 * Learning
     * reducer
