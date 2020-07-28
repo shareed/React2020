@@ -25,7 +25,17 @@
 * event handlers
 
 # [React LifeCycle]()
+# [Custom Hooks]()
+    * localStorage
 
 ***Render props pattern takes a function that does some logic before it renders***
 
 **Hooks are functions that allow you to reuse stateful logic without changing your component hierarchy, reusing state in a simple way**
+
+**Custom Hooks are JavaScript functions whose name starts with ”use” and that may call other Hooks.**
+
+
+
+
+#### Others
+* material UI
