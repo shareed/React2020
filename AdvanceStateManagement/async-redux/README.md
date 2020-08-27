@@ -72,3 +72,7 @@ Here's a typical setup:
 * [Redux-thunk](https://github.com/reduxjs/redux-thunk)
 * [Redux-thunk1](./img/thunk1)
 * [Redux-thunk2](./img/thunk2)
+
+
+
+[ ] 

@@ -9,7 +9,7 @@ function ItemsList(props) {
   console.log(props);
   return (
     <div className="items-list-wrapper">
-      <button onClick={() => goBack()}>Go Back</button>
+      {/* <button onClick={() => goBack()}>Go Back</button> */}
       {items.map(item => (
         <div className="item-card" key={item.id}>
           {/* We made the entire image a Link so that if you click on the img
@@ -17,7 +17,7 @@ function ItemsList(props) {
           <Link to={`/item-list/${item.id}/description`}>
             <img
               className="item-list-image"
-              src={item.imageUrl}
+              src={item.image}
               alt={item.name}
             />
             <p>{item.name}</p>

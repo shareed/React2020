@@ -14,11 +14,14 @@ export default function App() {
   return (
     <div className="App">
       <nav>
-        <h1 className="store-header">Emily's Trinkets</h1>
+        <h1 className="store-header">Keya's Creations</h1>
         <div className="nav-links">
           {/* Link is an <a> with default behavior re-written so that navigation is handled purely client-side. No server requests for new HTML/JS/CSS!*/}
-          <Link to="/">Home</Link>
-          <Link to="/item-list">Shop</Link>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-facebook-square"></i>
+          <Link to="/item-list">Explore</Link>
+          
         </div>
       </nav>
       {/* Switch is like a JS switch statement. The first "true" match with path and URL will render that route component and will breakout of Routes. Only first match will render. */}
@@ -41,7 +44,11 @@ export default function App() {
         />
         {/* component={Home} passes Home as a variable to render when path matches. This is using a render method that passes Route props into Home, such as 'history', 'location', and 'match', 
       however it does not allow us to declare props on Home, since HOme is a variable and not JSX */}
-        <Route path="/" component={Home} />
+        <Route path="/" 
+                render={props => {
+                  return <Home text = "I HOPE THIS IS IT" />;
+                }}
+        />
       </Switch>
     </div>
   );

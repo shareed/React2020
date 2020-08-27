@@ -64,3 +64,36 @@
 
 #Dynamic Routes
 [Dynamic Routes](basic-routing/src/images/link1.png)
+
+
+[Photos](https://unsplash.com/s/photos/black-art)
+
+
+
+
+{/* <div className = 'home-info'>
+      <p className = "home-text1">COLLECTION OF UNIQUE PIECES</p>
+      <h2 className = "home-text">Designs By Keya</h2>
+          
+          <ul className = "home-text2">
+            <li className = 'list1'>Paintings</li>
+            <li className = 'list2'>Jewelry</li>
+            <li className = 'list3'>Logos</li>
+            <li className = 'list4'>Art</li>
+          </ul>
+         
+          
+          
+          <p className = "home-text3">Every piece is unique in detail, design and creativity, using high quality materials</p>
+          <div class="buttons">
+          <button className="btn" onClick={routeToShop}>
+            <p>Store</p>
+          </button>
+          <button className="btn" onClick={routeToShop}>
+            <p>Blog</p>
+          </button>
+          <button className="btn" onClick={routeToShop}>
+            <p>Contact</p>
+          </button>
+          <br/>
+      </div> */}
