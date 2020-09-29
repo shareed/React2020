@@ -7,3 +7,4 @@
 - [Form validation using custom hooks](https://www.coolbytes.io/post/1250/form-validation-using-custom-hooks)
 - [Integrate React with Firebase](https://www.coolbytes.io/post/1251/integrate-react-with-firebase)
 - [Securing your app with Firebase auth](https://www.coolbytes.io/post/1253/securing-your-app-with-firebase-auth)
+- [Sharing data with the Context API](https://www.coolbytes.io/post/1254/sharing-data-with-the-context-api)

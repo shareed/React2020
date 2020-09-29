@@ -10,7 +10,8 @@ export default function PetGrid() {
     axios
       .get(`https://dog.ceo/api/breed/${breed}/images/random/12`)
       .then(response => {
-        // console.log(response)
+        //
+         console.log(response)
         setPets(response.data.message);
       })
       .catch(error => {
